@@ -1,0 +1,59 @@
+GoLang Notes
+
+
+Identifiers 
+user defined names{in programming languages}
+In Go language, an identifier can be a variable name, function name, constant, statement labels, package name, or types.
+
+For example in this code
+
+package main
+
+import ( 
+     “fmt”
+
+)
+
+
+func  main() {
+
+var name = “MohitisNerd”
+
+
+}
+
+
+The above program has 3 identifiers
+1. main : package 
+2. main : function
+3. name : name of the variable
+
+
+
+There are certain rules for defining a variable if these rules are not followed we can get a compilation-time error.
+
+Do’s  
+must begin with either a underscore(_) or a letter
+must be a-z or A-Z or 0-9 and as we  know ‘_’
+its case sensitive.
+should be between 4-15  
+
+Don’t
+must not start with a  digit 
+keywords are not allowed to be used as a identifier.
+
+Uniqueness of the identifier 
+
+The identifier represented by _(underscore ) is known as blank identifier.
+Which can be used as anonymus placeholder
+
+
+
+Keywords in GoLang
+
+
+there are some reserverd word which cannot be used as a identifier as these are used in some internal process or they represent some predefined actions.
+
+Using them could result in compile-time error
+
+
