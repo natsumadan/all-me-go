@@ -19,4 +19,5 @@ func main() {
 
 	p.Move(2, 3)
 	fmt.Printf("%+v\n", p)
+
 }
