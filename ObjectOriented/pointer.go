@@ -18,6 +18,7 @@ func main() {
 	p := Point{1, 2}
 
 	p.Move(2, 3)
+	fmt.Println("Happy go lucky")
 	fmt.Printf("%+v\n", p)
 
 }
